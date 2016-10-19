@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ResourceOne.iml" filepath="$PROJECT_DIR$/ResourceOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytestlibrary/mytestlibrary.iml" filepath="$PROJECT_DIR$/mytestlibrary/mytestlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testfindid/testfindid.iml" filepath="$PROJECT_DIR$/testfindid/testfindid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testrefreshlayoutdemo/testrefreshlayoutdemo.iml" filepath="$PROJECT_DIR$/testrefreshlayoutdemo/testrefreshlayoutdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testwebview/testwebview.iml" filepath="$PROJECT_DIR$/testwebview/testwebview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unionpayjardemo/unionpayjardemo.iml" filepath="$PROJECT_DIR$/unionpayjardemo/unionpayjardemo.iml" />
+    </modules>
+  </component>
+</project>

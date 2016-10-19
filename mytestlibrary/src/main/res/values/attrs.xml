@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- txtSize删掉declare - styleable后的东西开始 -->
+        <attr name="txtSize" format="integer" />
+        <attr name="txtStr" format="string"/>
+        <!-- txtSize删掉declare - styleable后的东西结束 -->
+    
+</resources>

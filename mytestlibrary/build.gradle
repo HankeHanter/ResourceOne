@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile files('libs/shut-up.jar')
+}
+
+//task makeJar(type: Jar, dependsOn:"build") {
+//    from file('build/intermediates/classes/release')
+//    //目标文件名称
+//    archiveName = 'un_proguard.jar'
+//    destinationDir = file('build/libs')
+//    exclude "com/example/mytestlibrary/BuildConfig.class"
+//    exclude "com/example/mytestlibrary/BuildConfig\$*.class"
+//    exclude "**/R.class"
+//    exclude "**/R\$*.class"
+//    exclude "com/example/mytestlibrary/TestOne.class"
+//    exclude "com/example/mytestlibrary/TestOne\$*.class"
+//    //只导入资源路径集下的部分资源
+//    include "com/example/mytestlibrary/*.class"
+//}
+
+//task makeJar(type: proguard.gradle.ProGuardTask,dependsOn:"build") {
+//
+//    delete'build/outputs/jar/test-find-id.jar'//删除之前编译混淆jar包
+//
+//    injars'build/intermediates/bundles/release/classes.jar'//项目编译但未混淆的jar
+//
+//    outjars'build/outputs/jar/test-find-id.jar'//混淆后的jar路径
+//
+//    configuration'proguard-rules.pro'// 混淆配置文件
+//}
