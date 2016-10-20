@@ -28,10 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
     private String pa = "version=v1&partnerId=0755000001&orderId=20160831100910&goods=s+TWtQ==&amount=100&expTime=&notifyUrl=&pageUrl=&reserve=&extendInfo=&payMode=07&bankId=QPCFTX&creditType=2&custno=U000000001&holderName=1cXI/Q==&idNo=111111111111111111&mobile=13999999999&key=12348314-9388-11de-b73f-0f19974d6b20&sign=62394bf6bc834075195c3db2aa12e082";
 
-
     private String bankUrl = "http://192.168.70.128:3001/center/proxy/partner/v1/querybankcard.jsp";
 
     private WebView mWebView;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
