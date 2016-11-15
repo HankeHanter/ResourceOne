@@ -8,6 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_margin="3.5dp"
+        android:background="#EEDC82"
         >
 
         <TextView
@@ -15,11 +17,13 @@
             android:padding="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="tv1"
             android:gravity="center" />
 
         <TextView
             android:id="@+id/tv2"
             android:padding="10dp"
+            android:text="tv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center" />
@@ -27,6 +31,7 @@
         <TextView
             android:id="@+id/tv3"
             android:padding="10dp"
+            android:text="tv3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center" />
